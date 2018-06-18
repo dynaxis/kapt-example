@@ -1,0 +1,13 @@
+plugins {
+    id "org.jetbrains.kotlin.jvm" version "1.2.41"
+    id "org.jetbrains.kotlin.kapt" version "1.2.41"
+}
+
+dependencies {
+    compile "org.jetbrains.kotlin:kotlin-stdlib"
+    compile project(":kapt-example-core")
+}
+
+repositories {
+    mavenCentral()
+}
